@@ -1,22 +1,44 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <title> HW6 - Yauhen Kurlovich </title>
-        <link rel="stylesheet" href="styles/index.css">
-    </head>
-    <body> 
-        <button onclick="displayAll()"> Display </button>
-        <table>
-            <tr>
-                <th>userId</th>
-                <th>postId</th>
-                <th>title</th>
-                <th>body</th>
-            </tr>
-            <tbody id ="tableBody">
 
-            </tbody>
-        </table>
-        <script src="scripts/index.js" async defer></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title> HW6 - Yauhen Kurlovich </title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+
+    <h1>XmlHttpRequest - CRUD Operations</h1>
+    <form>
+        UserId
+        <input type=number />
+        Id
+        <input type=number />
+        Title
+        <input type=text />
+        Body
+        <input type=text />
+        <input type="submit" value="Create" />
+        <input type="submit" value="Update" />
+    </form>
+
+    <br>
+    <button onclick="displayAll()"> Display </button>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>UserId</th>
+            <th>PostId</th>
+            <th>Title</th>
+            <th>Body</th>
+            <th>Delete</th>
+        </tr>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+    <script src="scripts/index.js" async defer></script>
+</body>
+
 </html>

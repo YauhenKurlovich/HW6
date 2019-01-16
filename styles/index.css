@@ -1,0 +1,20 @@
+table,
+th,
+td {
+    border: 1px solid white;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+}
+
+input {
+    background-color: red;
+    color: white;
+}
