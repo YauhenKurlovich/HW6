@@ -9,17 +9,17 @@
 <body>
 
     <h1>XmlHttpRequest - CRUD Operations</h1>
-    <form>
+    <form name=dataForm>
         UserId
-        <input type=number />
+        <input name="uId" type=number />
         Id
-        <input type=number />
+        <input name="Id" type=number />
         Title
-        <input type=text />
+        <input name="title" type=text />
         Body
-        <input type=text />
-        <input type="submit" onclick="Add()"  value="Create" />
-        <input type="submit" value="Update" />
+        <input name="body" type=text />
+        <input type="submit" onclick="Add()" value="Create" />
+        <input type="submit" onclick="Update()" value="Update" />
     </form>
 
     <br>
